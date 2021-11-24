@@ -46,10 +46,10 @@ INSTALLED_APPS = [
     # Third part apps
     'rest_framework',
     'rest_framework_simplejwt',
+    "corsheaders",
     # Own apps
     'apps.account.apps.AccountConfig',
     'apps.recipes',
-    "corsheaders",
 
 ]
 

@@ -11,7 +11,7 @@ class RecipesAdmin(admin.ModelAdmin):
         }),
     )
 
-    list_display = ("name", "description", "image","price", "category", "amount",
+    list_display = ("pk","name", "description", "image","price", "category", "amount",
                        "published_at", "archived_at", "deleted_at")
 
 
